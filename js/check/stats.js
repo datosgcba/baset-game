@@ -22,11 +22,11 @@ angular.module('initApp')
     
     var valid = [];
     valid.push("Largometraje");
-    valid.push("Tv Ficcion");
+    valid.push("Tv Ficción");
     
     var tv = [];
     tv.push("Programa Televisivo");
-    tv.push("Tv Ficcion");
+    tv.push("Tv Ficción");
   
     var movies = [];
     movies.push("Largometraje Con I.N.C.A.A.");

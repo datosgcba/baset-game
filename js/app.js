@@ -49,6 +49,8 @@ angular.module('initApp',['ngRoute', 'ngAnimate', 'angular-flexslider'])
       
 });
  
+ 
+
 new WOW().init();
               
 /**

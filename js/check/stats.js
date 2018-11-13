@@ -2,7 +2,10 @@
 
 angular.module('initApp')
   .controller('statsController', function ($rootScope, $scope,$location) {
-
+    $rootScope.$on( "$routeChangeStart", function(event, next, current) {
+      //..do something
+      $(document).scrollTop(0);
+    });
 
     var invalid = [];
     invalid.push("Largometraje Con I.N.C.A.A.");

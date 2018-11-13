@@ -2,6 +2,11 @@
 
 angular.module('initApp')
   .controller('mainController', function ($scope, $rootScope, $location) {
+    
+    $rootScope.$on( "$routeChangeStart", function(event, next, current) {
+      //..do something
+      $(document).scrollTop(0);
+    });
     var url = 'data/baset.csv';
     var gameCount = 5;
     $rootScope.currentGame = {

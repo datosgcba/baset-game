@@ -18,7 +18,7 @@ html,body{
     word-break: keep-all;
     padding: 6px 12px;
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 1em;
     font-weight: 400;
     line-height: 1.42857143;
     text-align: center;
@@ -31,10 +31,10 @@ html,body{
 
 
 .head h1, h1.big{
-    font-size: 42px;
+    font-size: 2em;
 }
 h1.big{
-    font-size: 42px;
+    font-size: 2em;
 }
 
 h1.os{
@@ -137,7 +137,7 @@ background-color: #ffffffe0;
 
 
 .respuesta h3{
-     font-size: 18px;
+     font-size: 1em;
     line-height: 23px;
     margin-top: 17px;
 }
@@ -185,7 +185,7 @@ h4 img{height: 225px;  }
 }
 
 h2 small, h6 small, h4 small, h5 small{
-    font-size: 12px;  
+    font-size: 1em;  
     color:white;
 }
 ul li a {
@@ -206,7 +206,7 @@ ul { margin:0px;
     margin-left: 40px;}
 li{
     list-style-type: none;
-    font-size: 16px;
+    font-size: 1em;
     line-height: 25px;
 }
 
@@ -271,7 +271,7 @@ a.btn {
 }
 
 .btn{
-    font-size: 24px;
+    font-size: 1em;
     border-color: transparent;
     white-space: normal;
     text-transform: uppercase;
@@ -295,7 +295,7 @@ a.btn {
     margin-bottom: 12px;
 }
 .btn.high{
-    font-size: 2.25em;
+    font-size: 2em;
 }
 .btn-primary {
     background-color: #6bc049;
@@ -339,7 +339,7 @@ a.btn {
 
 .whatis h3 {
     padding-left: 2.5em;
-    font-size: 2.3em;
+    font-size: 1.75em;
     padding-top: 4.5em;
 }
 

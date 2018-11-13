@@ -175,7 +175,7 @@ strong.btn.no-click:hover{
 }
 h4 img{height: 225px;  }
 .btn p{
-    margin: 0;
+     margin: 0;
     vertical-align: middle;
     text-align: center;
     width: 100%;
@@ -183,6 +183,9 @@ h4 img{height: 225px;  }
     padding-top: 3px;
     padding-bottom: 0px;
     font-weight: 100;
+    padding-left: 10px;
+    padding-right: 10px;
+    
 }
 
 h2 small, h6 small, h4 small, h5 small{

@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8">
-                <h1 class="big"> <span ng-show="lastAnswer.result">Correcto!</span>
+                <h1 class="big"> <span ng-show="lastAnswer.result">¡Correcto!</span>
               <span ng-hide="lastAnswer.result">Incorrecto </span>  </h1>
            
               <p>
@@ -28,7 +28,7 @@
                     <p  ng-hide="gameFinish">
                     Quedan {{currentGame.remaing}} de {{currentGame.questions.length}} </strong> </p>
                     <h4 ng-show="gameFinish"> Conocé tus resultados.</h4>
-                    <h5> <a class="btn" ng-hide="gameFinish" href="" ng-click="nextQuestion()"> Continuar! </a></h5>
+                    <h5> <a class="btn" ng-hide="gameFinish" href="" ng-click="nextQuestion()"> ¡Continuar! </a></h5>
                       <h5> <a class="btn" ng-show="gameFinish" href="" ng-click="finishGame()">Terminar!</a></h5>
             </div>
         </div>

@@ -75,7 +75,9 @@ angular.module('initApp')
 		        	return b.values.length - a.values.length ;
 		        };
         var orderAlphabetNest = function(a,b){
-              return a.key - b.key;
+              if(a.key < b.key) { return -1; }
+              if(a.key > b.key) { return 1; }
+              return 0;
             };
         $rootScope.comunas = d3.nest()
 		        .key(function(d) {
@@ -87,7 +89,7 @@ angular.module('initApp')
 		$rootScope.barrios = d3.nest()
 		        .key(function(d) {
 		          
-		          return toTitleCase(d.BARRIO);
+		          return toTitleCase(d.BARRIO).trim();
 		        })
 		        .entries(data)
 		        .sort(orderAlphabetNest);

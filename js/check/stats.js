@@ -23,6 +23,7 @@ angular.module('initApp')
     var valid = [];
     valid.push("Largometraje");
     valid.push("Tv Ficción");
+    valid.push("Programa Televisivo");
     
     var tv = [];
     tv.push("Programa Televisivo");
